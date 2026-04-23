@@ -74,6 +74,7 @@ Phần A
     Lỗi 9 — Dòng 28 — Bảng thiếu <thead> và <tbody> — Thêm vào để chuẩn cấu trúc.
     Lỗi 10 — Dòng 40 — Dùng hai thẻ <main> lần sai, sai về ngữ nghĩa — Đổi thẻ phụ thành <aside>
     Lỗi 11 — Dòng 45 — Thẻ <footer> chứa <p> nhưng không đóng </p> — Thêm </p> trước </footer>.
+    Lỗi 12 — Dòng 48 — Thẻ <html> không đóng — Thêm </html>
 
     
 
