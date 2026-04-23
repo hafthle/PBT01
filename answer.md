@@ -15,6 +15,7 @@ Phần A
     - Kích thước dữ liệu(Size)
     - Tổng thời gian load trang(finish)
 
+
 #A2.
     Trang web dưới đây bị Google đánh giá SEO thấp vì lạm dụng <div>.
     Lỗi 1: Không dùng <header> cho phần đầu trang mà dùng <div>: <div class="header">
