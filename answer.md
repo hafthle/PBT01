@@ -216,5 +216,15 @@ Phần A
 </body>
 </html>
 
+#C2.
+Quan điểm cho rằng “chỉ cần dùng <div> kèm class là đủ” tuy đơn giản và nhanh lúc đầu, nhưng về lâu dài không phải là cách tốt.
+1. Về SEO: dùng các thẻ như <header>, <nav>, <main> giúp Google dễ nhận biết cấu trúc tài liệu, sẽ biết đâu là nội dung chính, đâu là menu để hiểu trang web tốt hơn. Dùng toàn <div> thì Google khó hiểu nội dung, làm giảm hiệu quả SEO.
+2. Về Accessibility: Những người dùng screen reader sẽ dựa vào các thẻ semantic để di chuyển trong trang. Ví dụ, họ có thể nhanh chóng chuyển đến menu hoặc nội dung chính. Nếu dùng toàn <div>, họ sẽ khó phân biệt các khu vực, dẫn đến trải nghiệm kém.
+- Ví dụ: với breadcrumb, nếu dùng <nav aria-label="breadcrumb"> thì hệ thống sẽ hiểu ngay đây là thanh điều hướng. Nhưng nếu chỉ dùng <div class="breadcrumb"> thì thông tin này sẽ không rõ ràng.
+- Dùng <div> sẽ phù hợp với việc làm layout vì chỉ mang tính trình bày, không có ý nghĩa nội dung cụ thể. HTML không có thẻ semantic riêng cho việc chia bố cục, nên dùng <div> để nhóm các phần tử lại và áp dụng CSS là phù hợp.
+
+
+
+
     
 
