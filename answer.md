@@ -61,5 +61,19 @@ Phần A
     KHÔNG NÊN dùng table để tạo layout trang web vì:
     - Table dùng để chứa dữ liệu bảng, không phải để chia layout web
     - Table phải load xong toàn bộ mới hiển thị đúng nên trang web sẽ bị tải chậm
+
+#B3
+    Lỗi 1 — Dòng 1 — <!DOCTYPE> thiếu "html" — Sửa thành <!DOCTYPE html>.
+    Lỗi 2 — Dòng 2 — Thiếu thuộc tính lang cho thẻ <html> — Thêm lang="vi" (hoặc en) vào <html>.
+    Lỗi 3 — Dòng 4 — Thẻ <title> không đóng — Đóng thẻ </title>
+    Lỗi 4 — Dòng 5 — meta charset="utf8" thiếu dấu nối — Đổi thành meta charset="utf-8".
+    Lỗi 5 — Dòng 8 — Thẻ <h1> không đóng — Sửa thành <h1>....</h1>
+    Lỗi 6 — Dòng 12 — Thẻ <a> không đóng — Sửa thành <a>....</a>
+    Lỗi 7 — Dòng 20 — img src=iphone.jpg thiếu dấu ngoặc kép quanh giá trị và không có alt — Sửa lại thành img src="iphone.jpg" alt="iPhone 16 Pro">.
+    Lỗi 8 — Dòng 22 — Thẻ <b> và </p> bị lồng sai: <p>Giá: <b>25.990.000đ</p></b> — Sửa thứ tự đóng: <p>Giá: <b>25.990.000đ</b></p>.
+    Lỗi 9 — Dòng 28 — Bảng thiếu <thead> và <tbody> — Thêm vào để chuẩn cấu trúc.
+    Lỗi 10 — Dòng 40 — Dùng hai thẻ <main> lần sai, sai về ngữ nghĩa — Đổi thẻ phụ thành <aside>
+    Lỗi 11 — Dòng 45 — Thẻ <footer> chứa <p> nhưng không đóng </p> — Thêm </p> trước </footer>.
+
     
 
